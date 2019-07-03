@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Piskel New</title>
+</head>
+
+<body class="_box-shadow">
+    <header class="header _box-shadow">
+        <div class="spinner" style="display: none">
+            <ul class="menu">
+                <li><a class="fa fa-spinner fa-pulse fa-2x " aria-hidden="true" href=#></a>
+                    <ul class="submenu">
+                        <li><a class="fa fa-retweet fa-2x" aria-hidden="true" href=#><span> Resize</span></a>
+                            <ul class="subsubmenu">
+                                <li><a href=#><span> 32x32</span></a></li>
+                                <li><a href=#><span> 64x64</span></a></li>
+                                <li><a href=#><span> 128x128</span></a></li>
+                            </ul>
+                        </li>
+                        <li id="save"><a class="fa fa-floppy-o fa-2x" aria-hidden="true" href=#><span> Save</span> </a>
+                        </li>
+                        <li><a class="fa fa-hand-o-up fa-2x" aria-hidden="true" href=#><span> Export</span></a></li>
+                        <li><a class="fa fa-hand-o-down fa-2x" aria-hidden="true" href=#><span> Import</span></a> </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="name">New Piskel</div>
+    </header>
+
+    <main class="main">
+        <div class="first">
+            <button class="push">Push me</button>
+            <div class="content">
+                <div class="content_container">
+                    <p class="content_container_text">
+                        New
+                    </p>
+                    <ul class="content_container_list">
+                        <li class="content_container_list_item">Piskel !</li>
+                        <li class="content_container_list_item">Scope !</li>
+                        <li class="content_container_list_item">Pictures !</li>
+                        <li class="content_container_list_item">Animation !</li>
+                    </ul>
+                </div>
+            </div>
+            <p><img class="house" width="320" height="320"></p>
+            <p><img class="my" width="750" height="350"></p>
+
+            <div class="gif">
+                <p><img class="list" width="300" height="300"></p>
+                <p><img class="check" width="300" height="300"></p>
+                <p><img class="cat" width="300" height="300"></p>
+                <p><img class="paint" width="300" height="300"></p>
+                <p><img class="pen" width="300" height="300"></p>
+            </div>
+            <a class="me" href="https://github.com/Nura-BY-13" target="_blank">©Hanna Charnaivan</a>
+        </div>
+
+        <div class="next" style="display: none">
+            <div class="tools">
+                <table class="point">
+                    <tr>
+                        <td class="nano"><i class="fa fa-square" aria-hidden="true"></i> </i></td>
+                        <td class="mini"><i class="fa fa-square " aria-hidden="true"></i></td>
+                        <td class="midi"><i class="fa fa-square " aria-hidden="true"></i></td>
+                        <td class="maxi"><i class="fa fa-square " aria-hidden="true"></i></td>
+                    </tr>
+                </table>
+
+                <div class="keyboard"><a class="fa fa-keyboard-o fa-3x" aria-hidden="true" href="#openModal"></a>
+                    <div id="openModal" class="modalDialog">
+                        <div>
+                            <a href="#close" title="Закрыть" class="close">X</a>
+                            <h2>Keyboard shortcuts</i></h2>
+                            <br>
+                            <p><i class="fa fa-pencil fa-lg"></i> - pen tool (P) </p>
+                            <p><i class="fa fa-share-alt fa-rotate-270 fa-lg"></i> - vertical mirror pen (M)
+                            </p>
+                            <p><i class="fa fa-paint-brush fa-lg"></i> - paint bucket tool (B) </p>
+                            <p class="double"><span class="fa-stack">
+                                    <i class="fa fa-bullseye fa-stack-2x"></i>
+                                    <i class="fa fa-paint-brush fa-stack-2x"></i>
+                                </span> - paint all pixels of the same color (A) </p>
+                            <p><i class="fa fa-eraser fa-lg"></i> - eraser tool (E) </p>
+                            <p><i class="fa fa-bolt fa-lg"></i> - stroke tool (S) </p>
+                            <p><i class="fa fa-pencil-square-o fa-lg"></i> - rectangle tool (R) </p>
+                            <p><i class="fa fa-eercast fa-lg"></i> - cercle tool (C) </p>
+                            <p><i class="fa fa-arrows fa-lg"></i> - move tool (N) </p>
+                            <p><i class="fa fa-magic fa-lg"></i> - shape selection (Z) </p>
+                            <p><i class="fa fa-square-o fa-lg"></i> - rectangle selection (S) </p>
+                            <p><i class="fa fa-star-half-o fa-lg"></i> - lasso selection (L) </p>
+                            <p><i class="fa fa-sun-o fa-lg"></i> - lighten (U) </p>
+                            <p><i class="fa fa-cubes fa-lg"></i> - dithering tool (D) </p>
+                            <p><i class="fa fa-eyedropper fa-lg"></i> - color picker (O) </p>
+                            <p><i class="fa fa-bomb fa-lg"></i> - clear frame (F) </p>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+                <table class="tool _box-shadow _border">
+                    <tr>
+                        <td data-tool="1"><i class="fa fa-pencil fa-2x" aria-hidden="true"></i></td>
+                        <td data-tool="2"><i class="fa fa-random fa-rotate-270 fa-2x" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                        <td data-tool="3"><i class="fa fa-paint-brush fa-2x" aria-hidden="true"></i></td>
+                        <td data-tool="4"><i class="fa-stack" aria-hidden="true">
+                                <i class="fa fa-bullseye fa-stack-2x"></i>
+                                <i class="fa fa-paint-brush fa-stack-2x"></i>
+                            </i>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td data-tool="5"><i class="fa fa-eraser fa-2x" aria-hidden="true"></i></td>
+                        <td data-tool="6"><i class="fa fa-bolt fa-2x" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                        <td data-tool="7"><i class="fa fa-pencil-square-o fa-2x" aria-hidden="true"></i></td>
+                        <td data-tool="8"><i class="fa fa-eercast fa-2x" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                        <td data-tool="9"><i class="fa fa-arrows fa-2x" aria-hidden="true"></i></td>
+                        <td data-tool="10"><i class="fa fa-magic fa-2x" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                        <td data-tool="11"><i class="fa fa-square-o fa-2x" aria-hidden="true"></i></td>
+                        <td data-tool="12"><i class="fa fa-star-half-o fa-2x" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                        <td data-tool="13"><i class="fa fa-sun-o fa-2x" aria-hidden="true"></i></td>
+                        <td data-tool="14"><i class="fa fa-cubes fa-2x" aria-hidden="true"></i></td>
+                    </tr>
+                    <tr>
+                        <td data-tool="15"> <i class="fa fa-eyedropper fa-2x" aria-hidden="true"></i></td>
+                        <td data-tool="16"><i class="fa fa-bomb fa-2x" aria-hidden="true"></i> </td>
+                    </tr>
+                </table>
+                <div id="color_select">
+                    <input type="color" value="#FFFFFF" class="color_box2 _box-shadow _border"></input>
+                    <input type="color" value="#000000" class="color_box1 _box-shadow _border"></input>
+                    <div class="arrow"> <i class="fa fa-refresh fa-spin fa-lg " aria-hidden="true"></i></div>
+                </div>
+            </div>
+            <div class="frames_box_shadow _box-shadow _border">
+                <ul class="list_of_frames">
+                    <li>
+                        <button class="addBtn _box-shadow _border">Add new</button>
+                    </li>
+                </ul>
+            </div>
+            <div class="boder_canvas _box-shadow _border">
+                <div class="canvas _box-shadow">
+                    <canvas id="result" height="768" width="768"></canvas>
+                </div>
+            </div>
+            <div class="data_about_canvas _box-shadow _border">
+                <div>
+                    <canvas class="canvas_prew _box-shadow _border" height="256" width="256"></canvas>
+                    <div>
+                        <output id="out_fps" for="fps">1 FPS</output>
+                        <br>
+                        <input type="range" id="fps" min="1" max="24" step="1" value="1">
+                    </div>
+                </div>
+                <div>
+                    <span>Current tool: </span><span class="info_current-tool">Pen tool</span>
+                    <br>
+                    <span class="info_size">[32x32]</span>&ensp;<span class="info_coordinates"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        document.querySelector('.push').onclick = function () {
+            document.querySelector('.first').style.display = 'none';
+            document.querySelector('.next').style.display = 'grid';
+            document.querySelector('.spinner').style.display = 'block';
+        }
+    </script>
+    <script src="app.bundle.js"></script>
+</body>
+
+</html>
